@@ -9,7 +9,7 @@
 
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
-    <form action="/" method="post">
+    <form action="/" method="post" id="company">
       <label for="fullname">Enter Name:</label>
         <input type="text" name="fullname" id="fullname" placeholder="Enter Name" required>
       <label for="email">Enter Email:</label>
@@ -18,7 +18,7 @@
         <input type="tel" name="phone" id="phone" placeholder="Enter Telephone (optional)">
       <label for="message">Enter Message:</label>
     </form>
-      <textarea name="message" id="message" placeholder="Enter Telephone (optional)">
+      <textarea name="message" form="company" placeholder="Enter Message">
 
     <!-- First, create a form tag where our inputs will be nested -->
 
